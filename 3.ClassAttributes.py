@@ -4,7 +4,7 @@ class Item:
 item1 = Item()
 # these are class varible because it belongs to the object (instances of this class)
 # these are assigned attributes of this instance of class Item
-# Note: coming from java, it can be done outside of the class. 
+# Note: coming from java, it can also be done outside of the class in python. 
 item1.name = "Phone"
 item1.price = 100
 item1.quantity = 5 
