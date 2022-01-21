@@ -1,0 +1,2 @@
+from flashcard import Flashcard
+

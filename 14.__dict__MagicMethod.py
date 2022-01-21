@@ -23,7 +23,7 @@ print(item1.calculate_total_price())
 item2 = Item("Laptop", 1000) 
 print(item2.calculate_total_price())
 
-# here I am access pay_rate via class itself
+# here I access pay_rate via class itself
 print("Pay Rate via class:",  Item.pay_rate)
 
 # but you can also access them via instances
