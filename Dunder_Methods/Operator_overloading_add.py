@@ -3,7 +3,7 @@ class Vector:
         self.x = x
         self.y = y
 
-    # lets say my problem statement is: I want these vector to add subtract.
+    # lets say my problem statement is: I want these vector to add, subtract.
     # then, operator overloading comes into picture:
     def __add__(self, other):
         return Vector(self.x + other.x, self.y + other.y)
